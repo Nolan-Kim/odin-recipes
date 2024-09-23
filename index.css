@@ -10,8 +10,10 @@ html {
 }
 body {
   background-color: #D5DCF9;
+  margin: 0;
 }
 .title {
+  margin: 10px 10px 10px 20px;
   font-family: "Old Standard TT", serif;
   color: #D5DCF9;
   font-weight: bold;
@@ -20,8 +22,32 @@ body {
   padding: 10px 10px 10px 10px;
   background-color: #554971;
   border-radius: 30px;
-  margin-top: 0px;
   animation-name: fadeInFromTop;
   animation-duration: 2s;
   animation-iteration-count: 1;
+}
+.recipe a img {
+  border-radius: 30px;
+  border: 10px solid;
+  border-color: #A7B0CA;
+  position: relative;
+  margin-bottom: 10px;
+}
+.recipe .tagline {
+  color:#554971;
+  font-family: sans-serif;
+  margin: 0px 0px 10px 0px;
+}
+.recipe a h2 {
+  font-family: "Old Standard TT", sans-serif;
+  font-size: 2.125em;
+  color:#554971;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0px 0px 10px 0px;
+}
+.recipe {
+  margin: 10px;
+  display: block;
+  text-align: center;
 }
