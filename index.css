@@ -1,0 +1,27 @@
+@keyframes fadeInFromTop {
+  from {transform: translate(0px, -20px);
+        opacity: 0}
+  to {transform: translate(0px, 0px);
+      opacity: 1}
+}
+html {
+  height: 100%;
+  margin: 0;
+}
+body {
+  background-color: #D5DCF9;
+}
+.title {
+  font-family: "Old Standard TT", serif;
+  color: #D5DCF9;
+  font-weight: bold;
+  font-size: 3.125em;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  background-color: #554971;
+  border-radius: 30px;
+  margin-top: 0px;
+  animation-name: fadeInFromTop;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
