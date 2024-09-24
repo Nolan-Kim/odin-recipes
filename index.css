@@ -58,3 +58,6 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+#buffer {
+  padding: 0px 0px 20px 0px;
+}
