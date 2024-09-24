@@ -4,6 +4,20 @@
   to {transform: translate(0px, 0px);
       opacity: 1}
 }
+
+@keyframes fadeInFromLeft {
+  from {transform: translate(-20px, 0px);
+        opacity: 0}
+  to {transform: translate(0px, 0px);
+      opacity: 1}
+}
+
+@keyframes fadeInFromRight {
+  from {transform: translate(2px, 0px);
+        opacity: 0}
+  to {transform: translate(0px, 0px);
+      opacity: 1}
+}
 html {
   height: 100%;
   margin: 0;
@@ -37,11 +51,11 @@ body {
 }
 .recipe .tagline {
   color:#554971;
-  font-family: sans-serif;
+  font-family: "Raleway", sans-serif;
   margin: 0px 0px 10px;
 }
 .recipe a h2 {
-  font-family: "Old Standard TT", sans-serif;
+  font-family: "Old Standard TT", serif;
   font-size: 2.125em;
   color:#554971;
   font-weight: bold;
