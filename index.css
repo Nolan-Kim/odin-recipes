@@ -13,7 +13,7 @@ body {
   margin: 0;
 }
 .title {
-  margin: 10px 10px 10px 20px;
+  margin: 10px 10px 10px 10px;
   font-family: "Old Standard TT", serif;
   color: #D5DCF9;
   font-weight: bold;
@@ -32,24 +32,27 @@ body {
   border-color: #A7B0CA;
   position: relative;
   margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
 .recipe .tagline {
   color:#554971;
   font-family: sans-serif;
-  margin: 0px 0px 10px 0px;
+  margin-bottom: 10px;
 }
 .recipe a h2 {
   font-family: "Old Standard TT", sans-serif;
   font-size: 2.125em;
   color:#554971;
   font-weight: bold;
-  margin: 0px 0px 10px 0px;
+  margin-bottom: 10px;
 }
 .recipe a {
   text-decoration: none;
 }
 .recipe {
-  margin: 10px;
+  margin-bottom: 10px;
   display: block;
   text-align: center;
+  width: 62.5%;
 }
